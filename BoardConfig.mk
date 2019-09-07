@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-PLATFORM_PATH := device/nokia/DRG_sprout
+PLATFORM_PATH := device/nokia/B2N_sprout
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -32,7 +32,7 @@ TARGET_USES_UEFI := true
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno512
 TARGET_USES_64_BIT_BINDER := true
 
 # Architecture
@@ -64,7 +64,7 @@ BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_SECOND_OFFSET := 0x00f00000
-TARGET_PREBUILT_KERNEL := device/nokia/DRG_sprout/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/nokia/B2N_sprout/prebuilt/Image.gz-dtb
 
 
 # Partitions
@@ -127,7 +127,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPPRESS_SECURE_ERASE := true
 TW_USE_LEDS_HAPTICS := true
 USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := device/nokia/DRG_sprout/installer
+RECOVERY_INSTALLER_PATH := device/nokia/B2N_sprout/installer
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_Y_OFFSET := 80

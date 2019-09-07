@@ -1,2 +1,2 @@
-add_lunch_combo omni_DRG_sprout-eng
+add_lunch_combo omni_B2N_sprout-eng
 
